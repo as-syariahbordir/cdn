@@ -1,38 +1,38 @@
  function setDarkMode(isDark) {
-        var darkBtn = document.getElementById(&#39;darkBtn&#39;)
-        var lightBtn = document.getElementById(&#39;lightBtn&#39;)
+        var darkBtn = document.getElementById('darkBtn')
+        var lightBtn = document.getElementById('lightBtn')
 
         if(isDark) {
-            lightBtn.style.display = &quot;flex&quot;
-            darkBtn.style.display = &quot;none&quot;
+            lightBtn.style.display = "block"
+            darkBtn.style.display = "none"
         } else {
-            lightBtn.style.display = &quot;none&quot;
-            darkBtn.style.display = &quot;flex&quot;
+            lightBtn.style.display = "none"
+            darkBtn.style.display = "block"
         }
 
-        document.body.classList.toggle(&quot;darkmode&quot;);
+        document.body.classList.toggle("darkmode");
     }
 
 //check localstorage
-if(localStorage.getItem(&#39;preferredTheme&#39;) == &#39;dark&#39;) {
+if(localStorage.getItem('preferredTheme') == 'dark') {
     setDarkMode(true)
 }
 
 function setDarkMode(isDark) {
-    var darkBtn = document.getElementById(&#39;darkBtn&#39;)
-    var lightBtn = document.getElementById(&#39;lightBtn&#39;)
+    var darkBtn = document.getElementById('darkBtn')
+    var lightBtn = document.getElementById('lightBtn')
 
     if(isDark) {
-        lightBtn.style.display = &quot;flex&quot;
-        darkBtn.style.display = &quot;none&quot; 
+        lightBtn.style.display = "block"
+        darkBtn.style.display = "none" 
     //tambahan localstorage
-        localStorage.setItem(&#39;preferredTheme&#39;, &#39;dark&#39;);
+        localStorage.setItem('preferredTheme', 'dark');
     } else {
-        lightBtn.style.display = &quot;none&quot;
-        darkBtn.style.display = &quot;flex&quot;
+        lightBtn.style.display = "none"
+        darkBtn.style.display = "block"
      //tambahan localstorage
-        localStorage.removeItem(&#39;preferredTheme&#39;);
+        localStorage.removeItem('preferredTheme');
     }
 
-    document.body.classList.toggle(&quot;darkmode&quot;);
+    document.body.classList.toggle("darkmode");
 }
