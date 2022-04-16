@@ -1,6 +1,6 @@
 //<![CDATA[
 $(document).ready(function () {
-var license = $('#license-code').text(),
+var license = 'NTE4Njg3MzE0MDg5Nzc5OTYz',
 myLicense = atob(license)
 tpllc = $('#BlogId').text(),
 second = 25;
