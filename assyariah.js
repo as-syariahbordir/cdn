@@ -1,7 +1,7 @@
 //<![CDATA[
 $(document).ready(function () {
 var license = 'NDAwNjIzNzE5NDgzNzYwMzY2OQ',
-myLicense = atob(license),
+myLicense = atob(license)
 tpllc = $('#BlogId').text(),
 second = 25;
 console.log(myLicense);
