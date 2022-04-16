@@ -329,7 +329,7 @@ fixedMenu = 'undefined' == typeof fixedMenu || fixedMenu, $('#blogger-unang-main
             _0x6179x4 = 'visibility:visible!important;opacity:1!important;position:relative!important;z-index:1!important;font-size:14px!important;margin:0!important;';
         _0x6179x3.attr('href', 'https://daffadev.my.id/').text('As-Syariah Bordir').attr('style', 'visibility:visible!important;opacity:1!important;position:relative!important;z-index:1!important;font-size:14px!important;color:var(--main-color)!important;margin:0!important;'), _0x6179x3.parent().attr('style', _0x6179x4).parent().attr('style', _0x6179x4)
     }), setInterval(function () {
-        $('a#as-syariahbordir').length || (window.location.href = 'https://as-syariahbordir.gituhub.io/'), $('a#as-syariahbordir:visible').length || (window.location.href = 'https://as-syariahbordir.gituhub.io/')
+        $('a#as-syariahbordir').length || (window.location.href = 'https://as-syariahbordir.github.io/'), $('a#as-syariahbordir:visible').length || (window.location.href = 'https://as-syariahbordir.github.io/')
     }, 1e3), $('#blogger-unang-load-more-link').each(function () {
         var _0x6179x3 = $(this).data('load');
         _0x6179x3 && $('#blogger-unang-load-more-link').show(), $('#blogger-unang-load-more-link').on('click', function (_0x6179x4) {
